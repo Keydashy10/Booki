@@ -1,0 +1,112 @@
+body{
+    background-color: white ;
+    margin: auto;
+    max-width: 1440px;
+    font-family: 'Raleway';
+    
+}
+img {
+    width: 100%;
+    height: 240px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+/* 
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+} */
+ul li {
+  list-style-type: none;
+}
+
+
+ul li:hover {
+  color: blueviolet;
+}
+header nav {
+  display: flex;
+   flex-direction: row;
+  justify-self: space-between;
+  align-items: center;
+}
+header,
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px 50px;
+}
+.row{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+nav li {
+  margin-right: 200px;
+}
+.accueil-photos{
+  max-width: 811px;
+}
+aside {
+  display: flex;
+}
+aside h2 {
+  padding-bottom: 500px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .first-row{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  gap: 30px;
+}
+.second-row{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  gap: 30px;
+} */
+.footer-main {
+  display: flex;
+  align-content: space-evenly;
+  flex-direction: row;
+  gap: 300px;
+}
+.a-propos{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  /* margin: 490px;
+  padding: 500px; */
+}
+.hebergements{
+  display: flex;
+  flex-direction: column;
+}
+.helping{
+  display: flex;
+  flex-direction: column;
+}
+footer h2 ul a{
+  margin-bottom: 15px;
+  column-gap: 50px;
+}
+i {
+  color: #0065fc;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.filters{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
