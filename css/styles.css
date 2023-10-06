@@ -35,9 +35,7 @@ nav > ul {
   list-style: none;
 }
 
-/*  Main 
-    1st section
-*/
+
 h1 {
   font-size: 22px;
   font-weight: 700;
@@ -81,6 +79,15 @@ button {
   padding: 0 16px;
 }
 
+.info > .i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 26px;
+  height: 26px;
+  border: 1px solid #D9D9D9;
+  border-radius: 100%;
+}
 i {
   color: #0065fc;
 }
@@ -159,7 +166,6 @@ padding: 30px;
   margin-top: 0;
   margin-bottom: 0;
 
-  /* line-height: normal; */
 }
 .card-body p {
   margin-top: 0;
@@ -199,8 +205,7 @@ aside {
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  /* padding-left: 15px;
-  padding: 15px; */
+
 }
 .card-aside p{
     margin-top: 0;
@@ -270,9 +275,8 @@ aside h3{
 }
 .main-1 {
   display: flex;
-   align-items: center; 
   gap: 40px;
-  /* align-self: stretch; */
+  align-items: flex-start;
   width: 100%;
   height: auto;
   justify-content: space-between;
@@ -313,12 +317,7 @@ aside h3{
   font-size: 16px;
   font-weight: 700;
 }
-/* .activites>img{
-    width: 50%;
-    height: auto;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-} */
+
 .row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -535,7 +534,17 @@ button {
 i.fa-solid.fa-magnifying-glass {
   color: #fff;
 }
-  
+ .i {
+  height: 100%;
+  border-radius: 100%;
+  border: solid 1px #D9D9D9;
+  width: 24px;
+}
+.i i{
+  align-items: center;
+  justify-content: center;
+} 
+
   
   .filters ul {
     display: grid;
